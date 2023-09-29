@@ -1,0 +1,2102 @@
+[
+  {
+    "dashboard": [
+      {
+        "id": "3d6d0b97-85ca-4283-81c4-812251854de7",
+        "last_logged_in": "2023-09-29T09:22:57.890Z",
+        "total_bookings": 42266,
+        "total_cars": 34481,
+        "created_at": "2023-09-28T13:40:31.970Z",
+        "updated_at": "2023-09-29T07:03:06.552Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c030200f-2fc6-4e55-8b24-771d15e30b3c",
+        "last_logged_in": "2023-09-28T17:50:21.037Z",
+        "total_bookings": 30560,
+        "total_cars": 86751,
+        "created_at": "2023-09-28T12:23:22.444Z",
+        "updated_at": "2023-09-28T16:13:15.664Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ddb0bb5d-6fee-4059-a04d-428d6bcd6fb9",
+        "last_logged_in": "2023-09-28T22:56:18.849Z",
+        "total_bookings": 64754,
+        "total_cars": 6137,
+        "created_at": "2023-09-29T01:38:23.832Z",
+        "updated_at": "2023-09-28T23:30:14.202Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a9958e0-b53f-4dec-9d91-1bc0a286288f",
+        "last_logged_in": "2023-09-29T00:28:17.494Z",
+        "total_bookings": 91779,
+        "total_cars": 88809,
+        "created_at": "2023-09-28T21:36:47.911Z",
+        "updated_at": "2023-09-28T16:08:19.194Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b69fb9de-990a-4726-a514-f5f6382a1773",
+        "last_logged_in": "2023-09-28T22:22:04.402Z",
+        "total_bookings": 9603,
+        "total_cars": 12465,
+        "created_at": "2023-09-28T17:15:01.626Z",
+        "updated_at": "2023-09-28T18:20:30.782Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "967648d4-f58e-4b37-ac3c-99ee42730f7c",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 63864,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-28T11:59:26.173Z",
+        "updated_at": "2023-09-28T15:30:29.413Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a4262376-a640-4c4f-9894-cfc66e38cd1f",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 55264,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-09-28T11:33:34.098Z",
+        "updated_at": "2023-09-28T19:50:32.823Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3b7d9f03-f6f5-4ff6-8c87-80034b472ec9",
+        "model": "Sports Car",
+        "make": "Ford",
+        "year": 83815,
+        "color": "Green",
+        "license_plate": "123456",
+        "created_at": "2023-09-28T10:05:10.724Z",
+        "updated_at": "2023-09-29T02:28:30.463Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cb3b26fc-8384-4491-95b7-c406a3becb0e",
+        "model": "Compact",
+        "make": "Chevrolet",
+        "year": 35500,
+        "color": "Silver",
+        "license_plate": "789ABC",
+        "created_at": "2023-09-28T23:39:56.571Z",
+        "updated_at": "2023-09-29T05:08:42.686Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9a59142e-e68b-46fa-9d95-95c5ee1b2b82",
+        "model": "Luxury",
+        "make": "BMW",
+        "year": 50077,
+        "color": "Black",
+        "license_plate": "456DEF",
+        "created_at": "2023-09-28T12:18:58.799Z",
+        "updated_at": "2023-09-29T02:04:31.730Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "dd4044ab-17d8-48d2-83a0-d14d4cdd6811",
+        "start_time": "2023-09-29T08:22:12.155Z",
+        "end_time": "2023-09-28T16:44:04.114Z",
+        "status": "Pending",
+        "created_at": "2023-09-28T12:38:52.853Z",
+        "updated_at": "2023-09-28T09:48:29.460Z",
+        "car_id": "cb3b26fc-8384-4491-95b7-c406a3becb0e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5c948cc-67a6-4904-b79d-9b149937e578",
+        "start_time": "2023-09-28T11:57:17.905Z",
+        "end_time": "2023-09-29T00:35:56.959Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-29T05:46:13.844Z",
+        "updated_at": "2023-09-28T19:01:25.963Z",
+        "car_id": "3b7d9f03-f6f5-4ff6-8c87-80034b472ec9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed63c894-5593-49bf-95cc-d9bd05cf0232",
+        "start_time": "2023-09-29T07:34:42.533Z",
+        "end_time": "2023-09-29T02:56:43.089Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-28T17:26:50.382Z",
+        "updated_at": "2023-09-29T05:58:32.236Z",
+        "car_id": "cb3b26fc-8384-4491-95b7-c406a3becb0e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9accc903-d95a-4e50-b2a1-eb262fa1eeed",
+        "start_time": "2023-09-29T01:50:02.747Z",
+        "end_time": "2023-09-28T22:34:29.553Z",
+        "status": "Completed",
+        "created_at": "2023-09-28T10:08:22.120Z",
+        "updated_at": "2023-09-28T18:36:45.114Z",
+        "car_id": "3b7d9f03-f6f5-4ff6-8c87-80034b472ec9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31282ac2-9698-4fce-b8b0-fe959127ed4c",
+        "start_time": "2023-09-28T16:04:59.110Z",
+        "end_time": "2023-09-28T11:37:39.904Z",
+        "status": "In Progress",
+        "created_at": "2023-09-28T20:11:32.801Z",
+        "updated_at": "2023-09-29T03:42:29.207Z",
+        "car_id": "a4262376-a640-4c4f-9894-cfc66e38cd1f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fbd63b48-8e95-4295-a550-ad81d7523a7a",
+        "email": "Carissa_Osinski@roq.tech",
+        "firstName": "Lazaro",
+        "lastName": "Walter-Wolff",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71759527",
+        "tenantId": null
+      },
+      {
+        "reference": "70651a12-9dfd-4d36-b355-330818f7d4ab",
+        "email": "Stanley80@roq.tech",
+        "firstName": "Quinn",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37301792",
+        "tenantId": null
+      },
+      {
+        "reference": "4a0013b6-5568-4f0d-9bd4-ab25dab4c259",
+        "email": "Hallie61@roq.tech",
+        "firstName": "Domenic",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/859.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "32e47e32-7529-421e-a430-71a89a30dc14",
+        "email": "Gideon_Howe@roq.tech",
+        "firstName": "Rosina",
+        "lastName": "Breitenberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/398.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "286b9d0c-dafe-44cf-9e0c-bc39cd88f553",
+        "email": "Twila86@roq.tech",
+        "firstName": "Audrey",
+        "lastName": "Emard",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63009382",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "dashboard": [
+      {
+        "id": "c9d5d4e4-aa1e-4150-8fa8-2bdb0ec5d00a",
+        "last_logged_in": "2023-09-29T04:30:29.093Z",
+        "total_bookings": 3205,
+        "total_cars": 78382,
+        "created_at": "2023-09-29T07:27:30.250Z",
+        "updated_at": "2023-09-28T09:47:22.348Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cba88317-7c9e-40c8-967f-8074341d709e",
+        "last_logged_in": "2023-09-28T21:13:22.762Z",
+        "total_bookings": 82135,
+        "total_cars": 29215,
+        "created_at": "2023-09-28T14:36:25.446Z",
+        "updated_at": "2023-09-28T16:21:52.768Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52cd31b3-079a-48f1-ad69-2ad5f456a916",
+        "last_logged_in": "2023-09-29T06:48:38.225Z",
+        "total_bookings": 81290,
+        "total_cars": 56614,
+        "created_at": "2023-09-29T08:48:04.198Z",
+        "updated_at": "2023-09-29T06:38:44.852Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2db64ef2-75d3-4628-bcf9-efd6834dffc4",
+        "last_logged_in": "2023-09-29T04:48:48.418Z",
+        "total_bookings": 54289,
+        "total_cars": 31763,
+        "created_at": "2023-09-29T06:45:19.732Z",
+        "updated_at": "2023-09-29T01:31:41.559Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "968bfa2e-7a83-4d7d-a10c-8860fa1aa54a",
+        "last_logged_in": "2023-09-29T04:40:27.963Z",
+        "total_bookings": 53191,
+        "total_cars": 89240,
+        "created_at": "2023-09-28T23:11:06.627Z",
+        "updated_at": "2023-09-29T00:32:33.654Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "fe260ce1-4e8f-4691-ad52-7956a5a88055",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 1521,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-29T02:16:38.779Z",
+        "updated_at": "2023-09-29T03:18:39.545Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8fb2030e-01ef-412d-a0d9-fa9132bbd211",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 13909,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-09-29T03:49:11.051Z",
+        "updated_at": "2023-09-29T01:37:44.185Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f8848683-0853-470f-9a9d-331b58e6a78c",
+        "model": "Sports Car",
+        "make": "Ford",
+        "year": 40569,
+        "color": "Green",
+        "license_plate": "123456",
+        "created_at": "2023-09-28T19:29:00.884Z",
+        "updated_at": "2023-09-29T05:10:52.899Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fd907634-2caf-4a50-b45e-64ff47bac4c9",
+        "model": "Hatchback",
+        "make": "Chevrolet",
+        "year": 17300,
+        "color": "Black",
+        "license_plate": "789ABC",
+        "created_at": "2023-09-28T15:21:42.613Z",
+        "updated_at": "2023-09-29T01:48:09.719Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a0be0144-56ff-4320-8ceb-7cb205387b29",
+        "model": "Convertible",
+        "make": "BMW",
+        "year": 7181,
+        "color": "White",
+        "license_plate": "456XYZ",
+        "created_at": "2023-09-28T19:47:21.175Z",
+        "updated_at": "2023-09-29T07:36:28.539Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "fd6c10fe-a38a-4fbf-9c49-5ba0023bc547",
+        "start_time": "2023-09-28T09:39:13.467Z",
+        "end_time": "2023-09-29T07:24:07.204Z",
+        "status": "Pending",
+        "created_at": "2023-09-29T01:00:29.168Z",
+        "updated_at": "2023-09-28T11:03:50.727Z",
+        "car_id": "8fb2030e-01ef-412d-a0d9-fa9132bbd211",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed3e2d6d-1e88-44e1-af8e-688ed095597d",
+        "start_time": "2023-09-28T15:19:22.017Z",
+        "end_time": "2023-09-28T17:14:39.911Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-29T09:05:00.130Z",
+        "updated_at": "2023-09-29T06:21:08.612Z",
+        "car_id": "8fb2030e-01ef-412d-a0d9-fa9132bbd211",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d908e8b-4313-4315-aa9e-904efc79e15c",
+        "start_time": "2023-09-28T20:06:43.198Z",
+        "end_time": "2023-09-28T21:34:22.400Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-28T13:09:35.329Z",
+        "updated_at": "2023-09-29T08:14:55.487Z",
+        "car_id": "fe260ce1-4e8f-4691-ad52-7956a5a88055",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "943f949c-8fc4-445b-b60f-c54a169933c6",
+        "start_time": "2023-09-28T14:42:57.839Z",
+        "end_time": "2023-09-28T21:39:45.640Z",
+        "status": "Completed",
+        "created_at": "2023-09-28T21:32:08.285Z",
+        "updated_at": "2023-09-29T07:32:30.728Z",
+        "car_id": "8fb2030e-01ef-412d-a0d9-fa9132bbd211",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbfb3c82-1d17-4663-b1d4-8e647a8cfaab",
+        "start_time": "2023-09-29T00:14:35.540Z",
+        "end_time": "2023-09-28T21:20:26.753Z",
+        "status": "In Progress",
+        "created_at": "2023-09-29T04:58:13.432Z",
+        "updated_at": "2023-09-28T14:36:59.205Z",
+        "car_id": "f8848683-0853-470f-9a9d-331b58e6a78c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "35602e3f-1ac5-4a4a-9ccf-107646bee540",
+        "email": "Dave81@roq.tech",
+        "firstName": "Edythe",
+        "lastName": "Lueilwitz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/289.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1769f4b5-99ff-4bab-88af-935d6660276f",
+        "email": "Hubert34@roq.tech",
+        "firstName": "Melissa",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/527.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aa3803be-00b0-428c-a082-1139e8ac6f9e",
+        "email": "Percival_Smitham92@roq.tech",
+        "firstName": "Mariela",
+        "lastName": "Hagenes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/285.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e947442b-5775-4e32-a71e-63c27db7e1c8",
+        "email": "Jarrod.Schaefer12@roq.tech",
+        "firstName": "Megane",
+        "lastName": "Runte",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95518071",
+        "tenantId": null
+      },
+      {
+        "reference": "c9cc6923-2823-4098-85ae-b687da396b1c",
+        "email": "Landen_Kertzmann49@roq.tech",
+        "firstName": "Jaylan",
+        "lastName": "Shields",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98252924",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "dashboard": [
+      {
+        "id": "56abab4d-4418-4260-9409-1b24948e843d",
+        "last_logged_in": "2023-09-29T03:50:44.497Z",
+        "total_bookings": 85244,
+        "total_cars": 52415,
+        "created_at": "2023-09-28T11:32:30.993Z",
+        "updated_at": "2023-09-29T00:42:46.080Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ecb3504f-b286-456b-9365-4c0b05c26883",
+        "last_logged_in": "2023-09-28T21:49:27.983Z",
+        "total_bookings": 3717,
+        "total_cars": 56575,
+        "created_at": "2023-09-28T13:34:18.508Z",
+        "updated_at": "2023-09-29T05:26:35.419Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d217f0e5-fb00-4588-b600-f678ed5479c1",
+        "last_logged_in": "2023-09-28T14:32:55.540Z",
+        "total_bookings": 53028,
+        "total_cars": 39083,
+        "created_at": "2023-09-28T14:37:50.230Z",
+        "updated_at": "2023-09-28T10:36:19.410Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "187a4c9d-a059-4462-b493-63849af1da58",
+        "last_logged_in": "2023-09-29T07:02:13.535Z",
+        "total_bookings": 82182,
+        "total_cars": 8,
+        "created_at": "2023-09-29T05:22:58.272Z",
+        "updated_at": "2023-09-29T00:09:42.617Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0d6b68b-96e9-4a03-bd67-832ea605adf8",
+        "last_logged_in": "2023-09-29T07:23:21.133Z",
+        "total_bookings": 98343,
+        "total_cars": 79654,
+        "created_at": "2023-09-29T00:37:31.866Z",
+        "updated_at": "2023-09-28T20:01:45.004Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "59c79012-7ae3-4ce1-bbb3-c595fd396234",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 9812,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-28T20:29:35.640Z",
+        "updated_at": "2023-09-29T06:42:08.834Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dd090ac8-9c01-46ba-a7c3-7f303c78aa3a",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 87956,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-09-29T00:51:34.490Z",
+        "updated_at": "2023-09-28T14:04:23.759Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fe43e14d-f23b-4276-a8a3-8931b104e567",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 33558,
+        "color": "Green",
+        "license_plate": "123456",
+        "created_at": "2023-09-29T06:26:11.704Z",
+        "updated_at": "2023-09-28T22:27:32.137Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a9147cde-5f52-4d26-8da5-dfe504e1c441",
+        "model": "Convertible",
+        "make": "Chevrolet",
+        "year": 67884,
+        "color": "Black",
+        "license_plate": "789ABC",
+        "created_at": "2023-09-28T10:29:16.552Z",
+        "updated_at": "2023-09-28T14:06:18.967Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "914ed495-9572-43ee-b943-7f9f354c42b4",
+        "model": "Sports Car",
+        "make": "BMW",
+        "year": 62025,
+        "color": "White",
+        "license_plate": "456DEF",
+        "created_at": "2023-09-28T09:49:54.851Z",
+        "updated_at": "2023-09-28T10:41:03.707Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "fac5d5fc-9b18-427a-9e96-5634254ba204",
+        "start_time": "2023-09-28T16:56:10.783Z",
+        "end_time": "2023-09-28T10:31:21.273Z",
+        "status": "Pending",
+        "created_at": "2023-09-29T09:03:05.551Z",
+        "updated_at": "2023-09-29T06:22:28.875Z",
+        "car_id": "59c79012-7ae3-4ce1-bbb3-c595fd396234",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "faa4ee38-a128-4d55-8a3e-e0025d7da16c",
+        "start_time": "2023-09-28T18:20:28.051Z",
+        "end_time": "2023-09-28T10:46:43.576Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-28T10:09:37.218Z",
+        "updated_at": "2023-09-29T04:01:37.198Z",
+        "car_id": "dd090ac8-9c01-46ba-a7c3-7f303c78aa3a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2023d13-1207-40f7-b98c-0416cf1964d2",
+        "start_time": "2023-09-28T13:07:14.723Z",
+        "end_time": "2023-09-28T21:57:38.445Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-28T23:23:06.336Z",
+        "updated_at": "2023-09-28T21:47:30.782Z",
+        "car_id": "fe43e14d-f23b-4276-a8a3-8931b104e567",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c8a7fbb-952c-4981-8c0b-f21adfff25ec",
+        "start_time": "2023-09-28T14:11:50.043Z",
+        "end_time": "2023-09-28T23:53:38.451Z",
+        "status": "Completed",
+        "created_at": "2023-09-28T17:03:28.135Z",
+        "updated_at": "2023-09-29T05:40:42.690Z",
+        "car_id": "fe43e14d-f23b-4276-a8a3-8931b104e567",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b900730-daa3-49f2-8a84-6047cb223dc5",
+        "start_time": "2023-09-28T19:11:21.391Z",
+        "end_time": "2023-09-29T04:13:40.569Z",
+        "status": "In Progress",
+        "created_at": "2023-09-28T22:42:01.331Z",
+        "updated_at": "2023-09-28T16:39:54.102Z",
+        "car_id": "914ed495-9572-43ee-b943-7f9f354c42b4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5a19e3a3-4f2e-4c28-ae1d-d2bf1e4e6e7b",
+        "email": "Benny_Fadel35@roq.tech",
+        "firstName": "Tyrique",
+        "lastName": "Wiegand-Stiedemann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24120920",
+        "tenantId": null
+      },
+      {
+        "reference": "b8f5bb46-ec95-432e-afdd-723b95219a7e",
+        "email": "Otha72@roq.tech",
+        "firstName": "Noe",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/585.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4794456e-2c70-43c7-8080-09951ac9e82a",
+        "email": "Eliza.Ernser@roq.tech",
+        "firstName": "Jeromy",
+        "lastName": "Harris",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35706762",
+        "tenantId": null
+      },
+      {
+        "reference": "af1648e4-a6aa-4284-98bb-1f7bbe92e51b",
+        "email": "Cassie47@roq.tech",
+        "firstName": "Brenda",
+        "lastName": "Gottlieb",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1321283",
+        "tenantId": null
+      },
+      {
+        "reference": "2f6e201d-8d45-4575-b79a-f8d44eb54813",
+        "email": "Theodore57@roq.tech",
+        "firstName": "Delmer",
+        "lastName": "Schuster",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/989.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "dashboard": [
+      {
+        "id": "2892a0fb-8aee-4a07-9126-614c0a3e917b",
+        "last_logged_in": "2023-09-29T02:37:46.329Z",
+        "total_bookings": 80989,
+        "total_cars": 35453,
+        "created_at": "2023-09-28T16:57:58.627Z",
+        "updated_at": "2023-09-28T11:35:05.173Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44876e27-8ef5-48b1-9e1e-46c65e74d6d9",
+        "last_logged_in": "2023-09-29T05:48:11.565Z",
+        "total_bookings": 42919,
+        "total_cars": 30000,
+        "created_at": "2023-09-29T01:47:16.325Z",
+        "updated_at": "2023-09-28T23:38:20.093Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35556c8f-934d-432d-ac64-49982aac8cff",
+        "last_logged_in": "2023-09-28T23:34:27.652Z",
+        "total_bookings": 41725,
+        "total_cars": 29393,
+        "created_at": "2023-09-29T05:01:27.782Z",
+        "updated_at": "2023-09-29T04:52:20.248Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99f1340f-b9e7-4403-bfb1-74d7493fb59e",
+        "last_logged_in": "2023-09-28T22:12:38.389Z",
+        "total_bookings": 49679,
+        "total_cars": 72838,
+        "created_at": "2023-09-29T00:49:13.427Z",
+        "updated_at": "2023-09-28T15:21:54.164Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "689af039-645c-4cfe-8677-0b100d41a1f2",
+        "last_logged_in": "2023-09-28T17:36:33.774Z",
+        "total_bookings": 10998,
+        "total_cars": 63091,
+        "created_at": "2023-09-29T06:09:42.952Z",
+        "updated_at": "2023-09-29T03:41:55.679Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "91902b42-572b-4bae-bfe4-c1a869568fcc",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 35272,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-29T04:12:50.596Z",
+        "updated_at": "2023-09-29T08:52:51.319Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8bfabf38-33c4-49fa-9192-40026b73b0a3",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 97211,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-09-29T04:41:05.946Z",
+        "updated_at": "2023-09-28T10:14:30.405Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "727e359d-6842-4640-b12a-2dfe25a36953",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 81649,
+        "color": "Green",
+        "license_plate": "123456",
+        "created_at": "2023-09-29T00:51:00.186Z",
+        "updated_at": "2023-09-28T22:51:04.766Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dfe71ac3-612c-4266-a3d9-908168d78159",
+        "model": "Convertible",
+        "make": "Chevrolet",
+        "year": 79593,
+        "color": "Yellow",
+        "license_plate": "789ABC",
+        "created_at": "2023-09-28T23:48:31.438Z",
+        "updated_at": "2023-09-28T19:58:13.514Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e48467e8-65f8-41bb-a65a-24b7db19dde8",
+        "model": "Sports Car",
+        "make": "BMW",
+        "year": 18047,
+        "color": "Black",
+        "license_plate": "456XYZ",
+        "created_at": "2023-09-28T16:33:44.302Z",
+        "updated_at": "2023-09-28T17:59:56.527Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "5cdeb831-986d-4546-b2d6-667d3d2205a6",
+        "start_time": "2023-09-28T17:12:20.309Z",
+        "end_time": "2023-09-28T12:59:47.293Z",
+        "status": "Pending",
+        "created_at": "2023-09-29T03:55:38.784Z",
+        "updated_at": "2023-09-28T21:22:46.668Z",
+        "car_id": "dfe71ac3-612c-4266-a3d9-908168d78159",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2fb522b-0d62-4d31-9922-1bf67174ee26",
+        "start_time": "2023-09-29T07:24:30.559Z",
+        "end_time": "2023-09-28T17:47:22.065Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-28T15:26:56.210Z",
+        "updated_at": "2023-09-29T00:25:46.057Z",
+        "car_id": "dfe71ac3-612c-4266-a3d9-908168d78159",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de2f8b8e-6bfd-4f1b-8010-0b54703bf74a",
+        "start_time": "2023-09-28T11:06:23.781Z",
+        "end_time": "2023-09-29T04:26:48.355Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-28T16:20:39.492Z",
+        "updated_at": "2023-09-28T20:28:10.716Z",
+        "car_id": "91902b42-572b-4bae-bfe4-c1a869568fcc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f887d08-b6e5-4c13-90d4-09b211c3e903",
+        "start_time": "2023-09-29T01:06:35.681Z",
+        "end_time": "2023-09-28T12:47:32.184Z",
+        "status": "Completed",
+        "created_at": "2023-09-28T16:30:59.505Z",
+        "updated_at": "2023-09-28T23:14:06.465Z",
+        "car_id": "dfe71ac3-612c-4266-a3d9-908168d78159",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26da1636-985d-4ceb-bd16-54766560e4a0",
+        "start_time": "2023-09-29T00:41:37.810Z",
+        "end_time": "2023-09-28T11:02:55.414Z",
+        "status": "In Progress",
+        "created_at": "2023-09-29T05:00:14.089Z",
+        "updated_at": "2023-09-29T00:53:55.388Z",
+        "car_id": "dfe71ac3-612c-4266-a3d9-908168d78159",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "452eea6e-0bea-48ae-9d3b-381a5f9211f4",
+        "email": "Chad_Bins80@roq.tech",
+        "firstName": "Johnnie",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/286.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "899d84cd-49f8-417b-ba3d-554ffebdbfe6",
+        "email": "Kariane.Rau-Anderson@roq.tech",
+        "firstName": "Jason",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90025457",
+        "tenantId": null
+      },
+      {
+        "reference": "2a99488d-094c-465c-b1ea-856f5157c6eb",
+        "email": "Jan_Goodwin87@roq.tech",
+        "firstName": "Martine",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/418.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "238a2977-ea5c-47ad-b71c-73d5f723e562",
+        "email": "Emmanuel.Erdman6@roq.tech",
+        "firstName": "Christ",
+        "lastName": "Kemmer-Haag",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16164364",
+        "tenantId": null
+      },
+      {
+        "reference": "7228dafc-6228-4b7e-8b1c-07f63477825a",
+        "email": "Zoe_Rath88@roq.tech",
+        "firstName": "Noble",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34091053",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "dashboard": [
+      {
+        "id": "35b68aab-e166-4285-8014-71890c977242",
+        "last_logged_in": "2023-09-29T06:52:34.130Z",
+        "total_bookings": 92565,
+        "total_cars": 95744,
+        "created_at": "2023-09-29T05:58:53.654Z",
+        "updated_at": "2023-09-28T10:42:06.925Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "441998b0-d936-4dba-979d-5f45a58fdf47",
+        "last_logged_in": "2023-09-28T15:51:29.373Z",
+        "total_bookings": 46961,
+        "total_cars": 64188,
+        "created_at": "2023-09-29T07:01:05.637Z",
+        "updated_at": "2023-09-28T17:58:03.126Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a65bb3e6-472e-4df9-b7ad-a06d4a9d21bc",
+        "last_logged_in": "2023-09-28T12:19:07.273Z",
+        "total_bookings": 12131,
+        "total_cars": 47678,
+        "created_at": "2023-09-28T11:53:13.236Z",
+        "updated_at": "2023-09-28T11:11:25.709Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72cbf006-bc52-433a-acea-5cee3e477d25",
+        "last_logged_in": "2023-09-28T17:19:23.204Z",
+        "total_bookings": 2513,
+        "total_cars": 15204,
+        "created_at": "2023-09-28T21:30:33.081Z",
+        "updated_at": "2023-09-29T05:43:00.159Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f441f061-9579-49ba-97d1-14723a40b626",
+        "last_logged_in": "2023-09-29T02:30:23.482Z",
+        "total_bookings": 20179,
+        "total_cars": 39277,
+        "created_at": "2023-09-28T17:20:42.775Z",
+        "updated_at": "2023-09-28T17:06:06.256Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "af5c4fa5-fb67-48fc-b657-29dc2ae4dd47",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 36066,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-29T04:10:13.913Z",
+        "updated_at": "2023-09-29T09:23:22.674Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f039437b-f99a-4549-80ed-2611cb3105ab",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 72166,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-09-29T06:19:14.389Z",
+        "updated_at": "2023-09-28T22:33:00.528Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6a1e28b5-1cc6-47a3-a4b0-303008fc81fb",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 44756,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "created_at": "2023-09-28T18:00:05.957Z",
+        "updated_at": "2023-09-28T17:29:46.911Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "758f7fca-cad3-4011-a183-4075dc3458d7",
+        "model": "Convertible",
+        "make": "Chevrolet",
+        "year": 64505,
+        "color": "Black",
+        "license_plate": "456XYZ",
+        "created_at": "2023-09-29T06:26:53.572Z",
+        "updated_at": "2023-09-28T22:58:06.996Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e41c2da1-441e-4f71-80c8-ff4a7e508913",
+        "model": "Sports Car",
+        "make": "BMW",
+        "year": 48086,
+        "color": "White",
+        "license_plate": "789DEF",
+        "created_at": "2023-09-28T14:49:35.407Z",
+        "updated_at": "2023-09-28T16:18:21.504Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "44d4b698-353e-453b-a57c-8640fa8b7a46",
+        "start_time": "2023-09-28T22:37:15.498Z",
+        "end_time": "2023-09-28T16:22:47.135Z",
+        "status": "Pending",
+        "created_at": "2023-09-29T00:51:56.152Z",
+        "updated_at": "2023-09-28T09:44:04.231Z",
+        "car_id": "af5c4fa5-fb67-48fc-b657-29dc2ae4dd47",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd829caf-c7f1-4675-a768-c8b46d2be1ba",
+        "start_time": "2023-09-29T08:13:43.696Z",
+        "end_time": "2023-09-28T10:25:50.943Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-29T00:01:05.137Z",
+        "updated_at": "2023-09-29T03:07:13.114Z",
+        "car_id": "e41c2da1-441e-4f71-80c8-ff4a7e508913",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4658b25-dfe8-4511-a595-b9d8197d3c9b",
+        "start_time": "2023-09-28T09:55:19.335Z",
+        "end_time": "2023-09-28T10:46:34.562Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-28T13:51:45.871Z",
+        "updated_at": "2023-09-28T22:29:16.994Z",
+        "car_id": "758f7fca-cad3-4011-a183-4075dc3458d7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a38ce976-6087-4f91-a746-82ce51211682",
+        "start_time": "2023-09-28T17:29:12.382Z",
+        "end_time": "2023-09-28T20:26:17.155Z",
+        "status": "Completed",
+        "created_at": "2023-09-28T21:36:04.670Z",
+        "updated_at": "2023-09-29T04:10:29.548Z",
+        "car_id": "e41c2da1-441e-4f71-80c8-ff4a7e508913",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd89e820-7d15-412e-8194-aa04e1d35467",
+        "start_time": "2023-09-29T04:41:27.321Z",
+        "end_time": "2023-09-28T14:31:20.365Z",
+        "status": "In Progress",
+        "created_at": "2023-09-29T03:33:53.870Z",
+        "updated_at": "2023-09-28T10:36:41.475Z",
+        "car_id": "758f7fca-cad3-4011-a183-4075dc3458d7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a270bfbf-651e-4049-8202-71c8ac04d4ae",
+        "email": "Courtney_Jast@roq.tech",
+        "firstName": "Hollis",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/13.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "11b87fdc-bf80-42e4-bd1a-50c9de9086ef",
+        "email": "Edna.Lesch@roq.tech",
+        "firstName": "Kaleigh",
+        "lastName": "Vandervort",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/545.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e799d241-9332-455c-b2aa-c494419da716",
+        "email": "Ricardo_Lockman46@roq.tech",
+        "firstName": "Fatima",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1127.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "92eef295-86fc-43bb-a790-8384cfa6652d",
+        "email": "Christine.Botsford@roq.tech",
+        "firstName": "Jaunita",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45249080",
+        "tenantId": null
+      },
+      {
+        "reference": "7d6472c8-ad5e-4171-a208-21443dbb8487",
+        "email": "Zoila_Wisoky@roq.tech",
+        "firstName": "Jodie",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22950861",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "dashboard": [
+      {
+        "id": "29e0a4fe-9878-46d1-a36a-e80f2c6a5834",
+        "last_logged_in": "2023-09-28T16:07:57.689Z",
+        "total_bookings": 79452,
+        "total_cars": 80553,
+        "created_at": "2023-09-28T20:08:14.736Z",
+        "updated_at": "2023-09-29T07:47:26.774Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d1b4921-5fec-441f-8c50-59b40b339003",
+        "last_logged_in": "2023-09-29T06:35:47.587Z",
+        "total_bookings": 87261,
+        "total_cars": 97944,
+        "created_at": "2023-09-28T10:02:41.274Z",
+        "updated_at": "2023-09-29T03:33:33.418Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b89f694-f570-4c6e-93ba-dae96dcd14d2",
+        "last_logged_in": "2023-09-28T16:49:11.084Z",
+        "total_bookings": 9030,
+        "total_cars": 22311,
+        "created_at": "2023-09-28T13:43:34.682Z",
+        "updated_at": "2023-09-29T02:27:42.351Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8df7571a-4845-40f6-b8f4-ae95a04265a5",
+        "last_logged_in": "2023-09-29T06:40:29.019Z",
+        "total_bookings": 63903,
+        "total_cars": 33594,
+        "created_at": "2023-09-28T12:28:16.577Z",
+        "updated_at": "2023-09-29T05:35:41.751Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16520d6b-b5fb-4880-b2fa-f345090e6f82",
+        "last_logged_in": "2023-09-28T14:32:18.792Z",
+        "total_bookings": 94406,
+        "total_cars": 72459,
+        "created_at": "2023-09-28T22:32:14.824Z",
+        "updated_at": "2023-09-28T09:44:19.516Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "8a8d1b2e-1f1b-4a6c-b586-0a520b03f8d4",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 46208,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-28T11:43:00.348Z",
+        "updated_at": "2023-09-28T13:25:45.577Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "676dd9fb-fc94-4cb2-a29a-9d70cd9daf9e",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 34179,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-09-28T20:56:52.132Z",
+        "updated_at": "2023-09-28T19:14:49.943Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "aae09765-730a-4373-b4d3-ae346c6f0683",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 49898,
+        "color": "Green",
+        "license_plate": "123456",
+        "created_at": "2023-09-28T20:40:36.618Z",
+        "updated_at": "2023-09-29T01:24:13.677Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2fa9da22-0fd5-4b18-84a3-f4f934d36643",
+        "model": "Convertible",
+        "make": "Chevrolet",
+        "year": 94096,
+        "color": "Black",
+        "license_plate": "789ABC",
+        "created_at": "2023-09-28T15:46:36.666Z",
+        "updated_at": "2023-09-28T21:32:44.442Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "01cba6dd-47a3-4cc0-bdcb-e92e94d95e04",
+        "model": "Electric",
+        "make": "BMW",
+        "year": 28058,
+        "color": "White",
+        "license_plate": "456XYZ",
+        "created_at": "2023-09-29T09:14:39.450Z",
+        "updated_at": "2023-09-28T16:11:36.051Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "744e7fa5-995b-4354-9629-a3b8c04b51a7",
+        "start_time": "2023-09-29T01:17:13.715Z",
+        "end_time": "2023-09-28T23:43:53.736Z",
+        "status": "Pending",
+        "created_at": "2023-09-29T09:28:27.125Z",
+        "updated_at": "2023-09-28T21:48:52.588Z",
+        "car_id": "8a8d1b2e-1f1b-4a6c-b586-0a520b03f8d4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e84bb5a-c6fa-4912-b229-4f45834995c9",
+        "start_time": "2023-09-29T02:14:06.502Z",
+        "end_time": "2023-09-29T02:50:20.804Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-29T08:51:47.790Z",
+        "updated_at": "2023-09-28T11:51:13.661Z",
+        "car_id": "8a8d1b2e-1f1b-4a6c-b586-0a520b03f8d4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ba3fbfe-aa5f-4e65-91cc-f9d2858d73b7",
+        "start_time": "2023-09-29T07:00:35.225Z",
+        "end_time": "2023-09-28T15:05:12.745Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-29T07:21:14.462Z",
+        "updated_at": "2023-09-29T06:19:14.805Z",
+        "car_id": "2fa9da22-0fd5-4b18-84a3-f4f934d36643",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1171977c-5a05-4e8b-8878-1ea83bb272ac",
+        "start_time": "2023-09-29T08:12:56.531Z",
+        "end_time": "2023-09-28T19:47:38.956Z",
+        "status": "Completed",
+        "created_at": "2023-09-28T17:34:09.325Z",
+        "updated_at": "2023-09-28T11:27:50.690Z",
+        "car_id": "8a8d1b2e-1f1b-4a6c-b586-0a520b03f8d4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0002dabe-b2ca-464c-9d56-f07435eb2eb0",
+        "start_time": "2023-09-28T12:11:34.848Z",
+        "end_time": "2023-09-28T16:29:46.753Z",
+        "status": "In Progress",
+        "created_at": "2023-09-28T17:29:17.020Z",
+        "updated_at": "2023-09-28T21:03:53.503Z",
+        "car_id": "2fa9da22-0fd5-4b18-84a3-f4f934d36643",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3b5ea8d3-e8a2-476c-8700-4af0bd5eb194",
+        "email": "Beth.Kertzmann@roq.tech",
+        "firstName": "Lee",
+        "lastName": "Ziemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1182.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8d8e5788-b856-418d-96bc-b972bc508846",
+        "email": "Reese.Emard92@roq.tech",
+        "firstName": "Jarret",
+        "lastName": "Ortiz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31169342",
+        "tenantId": null
+      },
+      {
+        "reference": "dfc3ce98-c4ec-4eba-9860-7911ebc9835b",
+        "email": "Karolann_Runolfsson@roq.tech",
+        "firstName": "Foster",
+        "lastName": "Spinka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/615.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "46689c76-f3b0-4af0-87aa-fd0fcddebc57",
+        "email": "Rosina.McKenzie58@roq.tech",
+        "firstName": "Concepcion",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1022.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "40056753-5a4b-4c4f-8d51-1b2814ea0d3e",
+        "email": "Wilford24@roq.tech",
+        "firstName": "Eunice",
+        "lastName": "Batz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/165.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "dashboard": [
+      {
+        "id": "d6885571-bc39-40c8-a2f6-30a8dbe0fb40",
+        "last_logged_in": "2023-09-28T11:54:00.863Z",
+        "total_bookings": 34957,
+        "total_cars": 65959,
+        "created_at": "2023-09-28T17:03:11.179Z",
+        "updated_at": "2023-09-29T05:09:15.702Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bcd1360-c65f-4bb5-acc6-d730ef1c4620",
+        "last_logged_in": "2023-09-28T19:53:37.119Z",
+        "total_bookings": 19700,
+        "total_cars": 10897,
+        "created_at": "2023-09-29T05:39:44.980Z",
+        "updated_at": "2023-09-29T01:47:43.689Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb49ea05-01c0-454b-a445-b3a7030660c5",
+        "last_logged_in": "2023-09-28T16:25:10.553Z",
+        "total_bookings": 91284,
+        "total_cars": 8236,
+        "created_at": "2023-09-29T02:26:49.607Z",
+        "updated_at": "2023-09-29T02:28:59.631Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b0a8ea9-5aa3-4427-9708-b086d855cdc8",
+        "last_logged_in": "2023-09-29T02:51:45.581Z",
+        "total_bookings": 28851,
+        "total_cars": 46029,
+        "created_at": "2023-09-28T11:00:47.137Z",
+        "updated_at": "2023-09-29T07:57:34.679Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae3d2585-b584-44d8-ae9e-424c209f6442",
+        "last_logged_in": "2023-09-28T09:53:21.766Z",
+        "total_bookings": 92686,
+        "total_cars": 33461,
+        "created_at": "2023-09-28T22:34:11.262Z",
+        "updated_at": "2023-09-29T03:38:48.368Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "79d9eb52-e175-4726-95f1-ae4498fdc234",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 40708,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-28T15:52:37.926Z",
+        "updated_at": "2023-09-29T05:43:04.975Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "95775267-9ecf-4e6d-b6ec-3b2edc097c20",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 42233,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-09-29T00:07:14.589Z",
+        "updated_at": "2023-09-29T01:29:29.963Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9d672905-6596-4620-8dc9-37aa90ea1ed1",
+        "model": "Sports Car",
+        "make": "Ford",
+        "year": 9675,
+        "color": "Green",
+        "license_plate": "123456",
+        "created_at": "2023-09-28T19:42:37.018Z",
+        "updated_at": "2023-09-29T09:08:50.983Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6db6588b-f01f-4ff5-9a28-b222f4c2176f",
+        "model": "Hatchback",
+        "make": "Chevrolet",
+        "year": 76179,
+        "color": "Silver",
+        "license_plate": "789ABC",
+        "created_at": "2023-09-29T07:06:42.421Z",
+        "updated_at": "2023-09-29T05:24:29.130Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9a2b52fa-81d0-44a6-983e-d9fc4ae95488",
+        "model": "Convertible",
+        "make": "BMW",
+        "year": 72701,
+        "color": "Black",
+        "license_plate": "456XYZ",
+        "created_at": "2023-09-29T02:18:15.404Z",
+        "updated_at": "2023-09-29T00:23:07.548Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "a0df624e-0a94-4e29-8193-be9da6ddd107",
+        "start_time": "2023-09-29T03:15:17.894Z",
+        "end_time": "2023-09-29T00:01:21.683Z",
+        "status": "Pending",
+        "created_at": "2023-09-28T11:40:30.571Z",
+        "updated_at": "2023-09-29T07:02:07.534Z",
+        "car_id": "9a2b52fa-81d0-44a6-983e-d9fc4ae95488",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f62000e-bc4b-4f28-a20a-58fc32ebd8ae",
+        "start_time": "2023-09-28T11:03:58.122Z",
+        "end_time": "2023-09-29T04:02:59.787Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-29T08:20:38.489Z",
+        "updated_at": "2023-09-29T06:18:47.297Z",
+        "car_id": "9d672905-6596-4620-8dc9-37aa90ea1ed1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa2f2530-ce43-4802-94b6-88d20fd847db",
+        "start_time": "2023-09-29T05:54:53.523Z",
+        "end_time": "2023-09-28T19:46:58.325Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-28T11:52:01.917Z",
+        "updated_at": "2023-09-28T19:37:53.068Z",
+        "car_id": "9a2b52fa-81d0-44a6-983e-d9fc4ae95488",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce746a5b-7fff-4200-9139-0f1ad9c9b37a",
+        "start_time": "2023-09-28T16:53:26.281Z",
+        "end_time": "2023-09-28T23:03:18.418Z",
+        "status": "Completed",
+        "created_at": "2023-09-28T17:00:58.509Z",
+        "updated_at": "2023-09-29T05:54:38.894Z",
+        "car_id": "95775267-9ecf-4e6d-b6ec-3b2edc097c20",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a276719a-cca1-4701-9752-12a538701580",
+        "start_time": "2023-09-28T16:32:32.314Z",
+        "end_time": "2023-09-29T02:39:44.258Z",
+        "status": "On Hold",
+        "created_at": "2023-09-29T04:20:09.153Z",
+        "updated_at": "2023-09-28T18:06:21.537Z",
+        "car_id": "6db6588b-f01f-4ff5-9a28-b222f4c2176f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7618c4ea-4a76-4b1d-a004-0b63a0286d05",
+        "email": "Noah33@roq.tech",
+        "firstName": "Jackie",
+        "lastName": "Haag",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80786959",
+        "tenantId": null
+      },
+      {
+        "reference": "620a258e-48a5-4a0f-8bc1-1b29698375a1",
+        "email": "Rogers.DuBuque@roq.tech",
+        "firstName": "Austen",
+        "lastName": "Lebsack",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/121.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "275548a8-f213-4c5a-b8ed-643a436068fa",
+        "email": "Eddie.Beatty85@roq.tech",
+        "firstName": "Elza",
+        "lastName": "Lesch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1075.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5b63aa43-8d75-425f-bf96-00aca502d1ad",
+        "email": "Herta.Boyle@roq.tech",
+        "firstName": "Sidney",
+        "lastName": "Halvorson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/138.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1b8e8e2c-b596-4c5f-a2c5-38a4e427eddb",
+        "email": "Nola_Hartmann63@roq.tech",
+        "firstName": "Moshe",
+        "lastName": "Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8526050",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "dashboard": [
+      {
+        "id": "82fabd60-f1cd-44cc-90e7-83f8b27066e0",
+        "last_logged_in": "2023-09-29T08:51:59.746Z",
+        "total_bookings": 11076,
+        "total_cars": 3291,
+        "created_at": "2023-09-28T10:06:36.529Z",
+        "updated_at": "2023-09-29T01:14:43.663Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aec01b9c-ad78-44e7-a7c3-49953dff73a7",
+        "last_logged_in": "2023-09-28T10:31:45.173Z",
+        "total_bookings": 1510,
+        "total_cars": 97756,
+        "created_at": "2023-09-28T11:51:55.030Z",
+        "updated_at": "2023-09-28T13:39:31.720Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3fe16a5-76ec-4f8f-a0c4-d8325f347002",
+        "last_logged_in": "2023-09-29T02:55:24.980Z",
+        "total_bookings": 61879,
+        "total_cars": 70134,
+        "created_at": "2023-09-28T17:40:45.945Z",
+        "updated_at": "2023-09-28T15:42:26.862Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf8a37c2-c43b-47ae-93fe-dde54b8b1e07",
+        "last_logged_in": "2023-09-28T20:54:01.758Z",
+        "total_bookings": 81828,
+        "total_cars": 21886,
+        "created_at": "2023-09-28T16:42:07.881Z",
+        "updated_at": "2023-09-29T04:21:10.423Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3ee8463-97b6-4a42-abb8-dd6b90b0ad41",
+        "last_logged_in": "2023-09-28T16:23:28.615Z",
+        "total_bookings": 90548,
+        "total_cars": 49999,
+        "created_at": "2023-09-28T19:51:56.464Z",
+        "updated_at": "2023-09-28T15:28:41.128Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "e5bf083b-58ae-4866-98a1-66924f5e5f8b",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 58486,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-28T12:21:11.569Z",
+        "updated_at": "2023-09-28T21:46:44.369Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "20d26a31-6703-41ae-a3e7-c177f92e192a",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 4680,
+        "color": "Blue",
+        "license_plate": "XYZ456",
+        "created_at": "2023-09-28T14:25:31.930Z",
+        "updated_at": "2023-09-28T15:57:41.006Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2a7dee1b-add5-47e6-9522-5b8c5b1420a8",
+        "model": "Sports Car",
+        "make": "Ford",
+        "year": 43937,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "created_at": "2023-09-28T19:53:58.696Z",
+        "updated_at": "2023-09-28T12:22:20.997Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1f56cb39-62b8-4730-9be0-d56a538ba90f",
+        "model": "Hatchback",
+        "make": "Chevrolet",
+        "year": 61268,
+        "color": "Black",
+        "license_plate": "456XYZ",
+        "created_at": "2023-09-28T15:17:45.293Z",
+        "updated_at": "2023-09-28T11:29:22.273Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7484f738-f235-492d-9c99-7eb6730e8029",
+        "model": "Convertible",
+        "make": "BMW",
+        "year": 28458,
+        "color": "White",
+        "license_plate": "789DEF",
+        "created_at": "2023-09-29T07:41:10.256Z",
+        "updated_at": "2023-09-28T23:44:53.684Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "d613be7b-4473-4164-a2b3-563c0f8156f2",
+        "start_time": "2023-09-28T13:12:38.302Z",
+        "end_time": "2023-09-29T07:33:29.156Z",
+        "status": "Pending",
+        "created_at": "2023-09-28T10:48:21.891Z",
+        "updated_at": "2023-09-28T15:00:27.776Z",
+        "car_id": "20d26a31-6703-41ae-a3e7-c177f92e192a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "265dfbe8-b245-4cdc-9030-8b51994ff52c",
+        "start_time": "2023-09-28T21:19:40.361Z",
+        "end_time": "2023-09-29T09:08:05.633Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-28T18:48:16.085Z",
+        "updated_at": "2023-09-29T00:12:12.813Z",
+        "car_id": "2a7dee1b-add5-47e6-9522-5b8c5b1420a8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f42eac4-ba5d-4e2c-9645-0f222d86a23c",
+        "start_time": "2023-09-28T12:21:46.804Z",
+        "end_time": "2023-09-28T10:23:01.971Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-29T06:58:03.304Z",
+        "updated_at": "2023-09-28T17:06:55.052Z",
+        "car_id": "e5bf083b-58ae-4866-98a1-66924f5e5f8b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8e11ac6-977c-4a54-80b7-c74cb46583ae",
+        "start_time": "2023-09-28T09:37:22.771Z",
+        "end_time": "2023-09-29T02:38:31.692Z",
+        "status": "Completed",
+        "created_at": "2023-09-29T01:01:04.838Z",
+        "updated_at": "2023-09-28T15:44:42.266Z",
+        "car_id": "1f56cb39-62b8-4730-9be0-d56a538ba90f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6426a80e-801f-494e-a76c-a855c60cdfec",
+        "start_time": "2023-09-29T05:39:12.036Z",
+        "end_time": "2023-09-28T23:33:19.824Z",
+        "status": "In Progress",
+        "created_at": "2023-09-28T19:09:09.004Z",
+        "updated_at": "2023-09-29T05:00:15.469Z",
+        "car_id": "2a7dee1b-add5-47e6-9522-5b8c5b1420a8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "dd5c2eec-2b33-4a82-86bb-7e3357d36b91",
+        "email": "Joseph.Dietrich@roq.tech",
+        "firstName": "Benny",
+        "lastName": "Pouros",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58568665",
+        "tenantId": null
+      },
+      {
+        "reference": "06367bd1-7076-4a8c-88e2-004b62a4a14c",
+        "email": "Therese.Nader36@roq.tech",
+        "firstName": "Cruz",
+        "lastName": "Rogahn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19887671",
+        "tenantId": null
+      },
+      {
+        "reference": "8c8917a5-8c4d-4d96-9b91-10fbb3a63a10",
+        "email": "Kaia47@roq.tech",
+        "firstName": "Morgan",
+        "lastName": "Pfannerstill",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62021658",
+        "tenantId": null
+      },
+      {
+        "reference": "f49ec77a-60eb-4b19-9445-bb39c33dfeca",
+        "email": "Cleo_Schuster93@roq.tech",
+        "firstName": "Brain",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64510071",
+        "tenantId": null
+      },
+      {
+        "reference": "9f0c72f6-1336-4d10-8140-5eb2413a1e79",
+        "email": "Rosalee44@roq.tech",
+        "firstName": "Orland",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/401.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "dashboard": [
+      {
+        "id": "bf3015b6-2b58-4dcb-a6ea-728cc63aa079",
+        "last_logged_in": "2023-09-29T08:43:14.999Z",
+        "total_bookings": 16009,
+        "total_cars": 61434,
+        "created_at": "2023-09-28T20:42:29.692Z",
+        "updated_at": "2023-09-29T06:22:46.732Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2859f5c9-a5a5-4aa7-9be5-5a8ddcff4096",
+        "last_logged_in": "2023-09-28T19:13:15.162Z",
+        "total_bookings": 39904,
+        "total_cars": 51979,
+        "created_at": "2023-09-28T18:33:55.681Z",
+        "updated_at": "2023-09-29T08:08:30.243Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e69311b-d0b1-49a8-b6e5-4d1b4e36cbfe",
+        "last_logged_in": "2023-09-28T17:33:50.577Z",
+        "total_bookings": 99877,
+        "total_cars": 38311,
+        "created_at": "2023-09-29T06:07:20.986Z",
+        "updated_at": "2023-09-28T15:13:09.860Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d9a49c7-bfea-435a-8ac5-b1fb4c304c7d",
+        "last_logged_in": "2023-09-29T00:58:16.361Z",
+        "total_bookings": 33978,
+        "total_cars": 34789,
+        "created_at": "2023-09-28T13:07:34.456Z",
+        "updated_at": "2023-09-29T04:09:02.145Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b80b43d-d914-4046-8bf7-7b416e648e6f",
+        "last_logged_in": "2023-09-28T21:24:58.969Z",
+        "total_bookings": 80739,
+        "total_cars": 92096,
+        "created_at": "2023-09-28T15:22:51.802Z",
+        "updated_at": "2023-09-29T07:22:15.034Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "bf84f4f6-0eeb-430f-a060-04483e6335fe",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 55882,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-28T22:28:12.427Z",
+        "updated_at": "2023-09-29T03:18:11.034Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "11399246-993e-4cae-a48d-50f157629de6",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 9990,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-09-29T00:08:08.198Z",
+        "updated_at": "2023-09-28T22:43:47.312Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "24f49756-bd50-4bcb-b621-e888d48f3722",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 89399,
+        "color": "Green",
+        "license_plate": "123456",
+        "created_at": "2023-09-28T12:51:15.849Z",
+        "updated_at": "2023-09-28T19:36:03.989Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7336cba3-7248-490d-94e6-b08ac5f05fa4",
+        "model": "Sports Car",
+        "make": "Chevrolet",
+        "year": 19772,
+        "color": "Yellow",
+        "license_plate": "789ABC",
+        "created_at": "2023-09-28T18:23:26.641Z",
+        "updated_at": "2023-09-28T10:15:13.453Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "665b89e7-1c57-4497-aca1-d67a70b1403b",
+        "model": "Convertible",
+        "make": "BMW",
+        "year": 12408,
+        "color": "Black",
+        "license_plate": "456XYZ",
+        "created_at": "2023-09-29T00:46:05.469Z",
+        "updated_at": "2023-09-29T02:51:23.808Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "9af355c9-9bb5-498e-87d9-db020fddd6b2",
+        "start_time": "2023-09-28T14:17:38.087Z",
+        "end_time": "2023-09-29T07:11:28.732Z",
+        "status": "Pending",
+        "created_at": "2023-09-28T16:31:58.889Z",
+        "updated_at": "2023-09-28T13:46:14.766Z",
+        "car_id": "665b89e7-1c57-4497-aca1-d67a70b1403b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9dec8c84-3297-4cbe-8418-3c73cfa185c1",
+        "start_time": "2023-09-28T18:52:46.768Z",
+        "end_time": "2023-09-28T11:33:29.323Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-28T19:45:34.783Z",
+        "updated_at": "2023-09-28T22:13:58.113Z",
+        "car_id": "665b89e7-1c57-4497-aca1-d67a70b1403b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e984385-bd60-4c75-af41-e5503d6372b7",
+        "start_time": "2023-09-29T02:23:35.838Z",
+        "end_time": "2023-09-28T21:22:05.636Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-28T11:55:31.654Z",
+        "updated_at": "2023-09-28T09:44:16.864Z",
+        "car_id": "11399246-993e-4cae-a48d-50f157629de6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca8a1344-47b7-4e34-baf4-c80c6cfe7664",
+        "start_time": "2023-09-29T05:06:04.454Z",
+        "end_time": "2023-09-28T22:00:02.364Z",
+        "status": "Completed",
+        "created_at": "2023-09-28T18:27:15.215Z",
+        "updated_at": "2023-09-28T21:32:46.940Z",
+        "car_id": "665b89e7-1c57-4497-aca1-d67a70b1403b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "215c3dae-0b41-4db9-9646-2fc6544d5f73",
+        "start_time": "2023-09-28T15:34:16.169Z",
+        "end_time": "2023-09-28T13:56:53.153Z",
+        "status": "In Progress",
+        "created_at": "2023-09-29T05:27:08.675Z",
+        "updated_at": "2023-09-29T07:11:39.389Z",
+        "car_id": "11399246-993e-4cae-a48d-50f157629de6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "19196a6e-c54e-4692-91a3-a97ac823709d",
+        "email": "Wanda.Zulauf@roq.tech",
+        "firstName": "Bell",
+        "lastName": "Kiehn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/912176",
+        "tenantId": null
+      },
+      {
+        "reference": "78b46d1f-e0d9-44c5-9b16-57705465b5cb",
+        "email": "Zackary_Tillman@roq.tech",
+        "firstName": "Lucinda",
+        "lastName": "Feeney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91405818",
+        "tenantId": null
+      },
+      {
+        "reference": "e9547359-8195-4eab-8f18-5f9aaa3603d1",
+        "email": "Mohammad_Lebsack61@roq.tech",
+        "firstName": "Jace",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/963.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "728d689e-b8a5-4270-8424-7076eb0d02a6",
+        "email": "Coralie.Schuppe@roq.tech",
+        "firstName": "Susana",
+        "lastName": "Feeney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50099527",
+        "tenantId": null
+      },
+      {
+        "reference": "4a6a4a43-4518-4668-82dc-3cbd036167b0",
+        "email": "Murl.Nitzsche@roq.tech",
+        "firstName": "Clarabelle",
+        "lastName": "Jenkins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73974186",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "dashboard": [
+      {
+        "id": "a4153497-deca-40be-bc2d-a212fc6b0920",
+        "last_logged_in": "2023-09-28T11:43:44.288Z",
+        "total_bookings": 4200,
+        "total_cars": 92231,
+        "created_at": "2023-09-29T08:25:46.746Z",
+        "updated_at": "2023-09-28T09:38:08.489Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c934f33-3c79-41fd-811c-becdf9858665",
+        "last_logged_in": "2023-09-29T01:30:25.985Z",
+        "total_bookings": 39144,
+        "total_cars": 29424,
+        "created_at": "2023-09-28T22:06:13.867Z",
+        "updated_at": "2023-09-28T15:05:28.111Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58edd253-24f4-4f27-b5ad-94afed122fdf",
+        "last_logged_in": "2023-09-28T20:10:39.544Z",
+        "total_bookings": 62390,
+        "total_cars": 10107,
+        "created_at": "2023-09-29T04:46:43.871Z",
+        "updated_at": "2023-09-28T22:18:12.628Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97e414df-ff38-403b-874d-3ae2fae03cff",
+        "last_logged_in": "2023-09-28T23:17:17.374Z",
+        "total_bookings": 21989,
+        "total_cars": 53735,
+        "created_at": "2023-09-28T16:33:40.339Z",
+        "updated_at": "2023-09-29T04:05:38.252Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4dafdc4c-2037-47d2-a441-826b20e9c5f7",
+        "last_logged_in": "2023-09-29T08:01:35.180Z",
+        "total_bookings": 88816,
+        "total_cars": 72774,
+        "created_at": "2023-09-28T14:15:01.636Z",
+        "updated_at": "2023-09-29T04:12:10.300Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "078935f9-8ab9-486d-a648-f60644fb1313",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 30142,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-29T04:43:02.532Z",
+        "updated_at": "2023-09-29T08:42:41.282Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ef1967a8-5132-4387-9bd4-2422761ee516",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 14889,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-09-29T06:16:35.004Z",
+        "updated_at": "2023-09-28T14:07:07.788Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6372f918-acd7-4250-bde3-ba0dd6c0c129",
+        "model": "Sports Car",
+        "make": "Ford",
+        "year": 4928,
+        "color": "Green",
+        "license_plate": "123456",
+        "created_at": "2023-09-28T15:25:47.820Z",
+        "updated_at": "2023-09-28T17:41:13.402Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d2340d0b-8375-46f7-a37d-e6260dfcb47e",
+        "model": "Compact",
+        "make": "Chevrolet",
+        "year": 64087,
+        "color": "Black",
+        "license_plate": "789ABC",
+        "created_at": "2023-09-28T18:09:45.865Z",
+        "updated_at": "2023-09-28T23:49:01.327Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "370d105e-5580-4ac1-ae22-0a56aa193dec",
+        "model": "Electric",
+        "make": "BMW",
+        "year": 45628,
+        "color": "White",
+        "license_plate": "456XYZ",
+        "created_at": "2023-09-28T14:09:37.566Z",
+        "updated_at": "2023-09-28T23:45:41.342Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "7313d94a-9692-400c-9b48-21c60da70b2e",
+        "start_time": "2023-09-28T19:38:55.200Z",
+        "end_time": "2023-09-28T13:49:32.181Z",
+        "status": "Pending",
+        "created_at": "2023-09-28T10:37:28.259Z",
+        "updated_at": "2023-09-28T16:25:15.840Z",
+        "car_id": "6372f918-acd7-4250-bde3-ba0dd6c0c129",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43c28290-a92c-4b5c-ad3b-b1b55ac958f5",
+        "start_time": "2023-09-28T22:16:13.102Z",
+        "end_time": "2023-09-28T20:00:07.248Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-29T03:17:59.104Z",
+        "updated_at": "2023-09-28T19:08:49.766Z",
+        "car_id": "6372f918-acd7-4250-bde3-ba0dd6c0c129",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4ae6e17-0421-46f7-829e-07786d2222a8",
+        "start_time": "2023-09-29T00:39:32.430Z",
+        "end_time": "2023-09-28T15:11:57.102Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-29T01:49:57.806Z",
+        "updated_at": "2023-09-28T14:42:23.487Z",
+        "car_id": "ef1967a8-5132-4387-9bd4-2422761ee516",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "519660ea-6463-4739-bf39-041b80622631",
+        "start_time": "2023-09-29T07:37:27.626Z",
+        "end_time": "2023-09-29T04:59:23.295Z",
+        "status": "Completed",
+        "created_at": "2023-09-28T13:00:14.339Z",
+        "updated_at": "2023-09-29T07:30:54.349Z",
+        "car_id": "370d105e-5580-4ac1-ae22-0a56aa193dec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "363ddb68-3fd0-49d8-a31e-859be77c206b",
+        "start_time": "2023-09-28T11:56:19.408Z",
+        "end_time": "2023-09-29T01:50:22.095Z",
+        "status": "In Progress",
+        "created_at": "2023-09-28T11:39:43.624Z",
+        "updated_at": "2023-09-29T08:34:43.142Z",
+        "car_id": "078935f9-8ab9-486d-a648-f60644fb1313",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5afc40a8-6b69-4dc2-bc8f-5f4c0e6178f5",
+        "email": "Paris_Corwin@roq.tech",
+        "firstName": "Caterina",
+        "lastName": "Satterfield",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/863.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a6b49e48-2c66-43d8-9a7f-c7f537f7e742",
+        "email": "Maxime66@roq.tech",
+        "firstName": "Nikita",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7902563",
+        "tenantId": null
+      },
+      {
+        "reference": "a73f9a12-ac90-42c7-9446-a92969ee2d79",
+        "email": "Delta.Franey42@roq.tech",
+        "firstName": "Henriette",
+        "lastName": "Fadel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/963.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d0aebf3c-48e9-4346-8381-d722493c096c",
+        "email": "Jamil_Wyman@roq.tech",
+        "firstName": "Jeff",
+        "lastName": "Kshlerin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/612.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f5519f69-5898-4a59-ad05-1f8130bedd65",
+        "email": "Devon_Boyle@roq.tech",
+        "firstName": "Brant",
+        "lastName": "Runolfsson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/990.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
